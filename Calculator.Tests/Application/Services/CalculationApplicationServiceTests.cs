@@ -19,10 +19,12 @@ namespace Calculator.Tests.Application.Services
         }
 
         [Theory]
-        [InlineData(1, 2, "+", 3)]
-        [InlineData(5, 3, "-", 2)]
-        [InlineData(2, 3, "*", 6)]
-        [InlineData(6, 3, "/", 2)]
+        [InlineData(4, 16, "+", 20)]
+        [InlineData(30, 5, "-", 25)]
+        [InlineData(8, 4, "*", 32)]
+        [InlineData(25, 5, "/", 5)]
+        [InlineData(3, 2, "/", 1.5)]
+        [InlineData(11, 2, "/", 5.5)]
         public void Calculate_PerformsCorrectOperation(double operand1, double operand2, string operation, double expectedResult)
         {
             // Arrange
