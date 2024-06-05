@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Calculator.Application", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Application", "Calculator.Application\Calculator.Application.csproj", "{C1CCA9FB-183A-48A4-8459-5C9430C1E00C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Calculator.API", "Calculator.API", "{46E235B3-C8F5-4F93-A0A7-47E31F111932}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.API", "Calculator.API\Calculator.API.csproj", "{57F64580-0523-4730-BA86-C4209865E1CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{C1CCA9FB-183A-48A4-8459-5C9430C1E00C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1CCA9FB-183A-48A4-8459-5C9430C1E00C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1CCA9FB-183A-48A4-8459-5C9430C1E00C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57F64580-0523-4730-BA86-C4209865E1CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F64580-0523-4730-BA86-C4209865E1CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F64580-0523-4730-BA86-C4209865E1CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F64580-0523-4730-BA86-C4209865E1CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1E05CFCE-076F-4D62-841D-2902EF563CE6} = {0A418396-C65E-4D03-BF0F-34C1BF21BBF6}
 		{C1CCA9FB-183A-48A4-8459-5C9430C1E00C} = {54D0BB33-12BD-4939-ABBA-CC38B2B9F192}
+		{57F64580-0523-4730-BA86-C4209865E1CA} = {46E235B3-C8F5-4F93-A0A7-47E31F111932}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7E35D301-0471-4ED1-8619-445C26602FA7}
