@@ -3,7 +3,7 @@ using Calculator.Domain.ValueObjects;
 
 namespace Calculator.Domain.Services.Interfaces
 {
-    internal interface ICalculationService
+    public interface ICalculationService
     {
         CalculationResult PerformCalculation(Calculation calculation);
     }
